@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 338129021787589309}
   - component: {fileID: 241592944526233581}
   - component: {fileID: 4600510654306286784}
+  - component: {fileID: 5955731146569939223}
   m_Layer: 0
   m_Name: Silencer
   m_TagString: Untagged
@@ -44,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35ce9fe0ee96fc94fa6aac8c1adf273c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Speed: 0
 --- !u!212 &4600510654306286784
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92,3 +94,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5955731146569939223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7800956424683535471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35ce9fe0ee96fc94fa6aac8c1adf273c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 100
