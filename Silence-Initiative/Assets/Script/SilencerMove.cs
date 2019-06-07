@@ -6,6 +6,7 @@ public class SilencerMove : MonoBehaviour
 {
     // Start is called before the first frame update
     public float Speed;//max speed in unit per second
+    public Vector3 SilencerPositionChange;
     void Start()
     {
         
@@ -23,5 +24,6 @@ public class SilencerMove : MonoBehaviour
         position.z *= Speed*Time.deltaTime*z_CorrectValue;
         //Debug.Log(position);
         transform.position += position;
+        SilencerPositionChange = position;
     }
 }
