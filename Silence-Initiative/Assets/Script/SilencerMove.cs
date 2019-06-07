@@ -16,11 +16,11 @@ public class SilencerMove : MonoBehaviour
     {
         Vector3 position = Vector3.zero;
         position.x = Input.GetAxis("Horizontal");
-        position.y = Input.GetAxis("Vertical");
+        position.z = Input.GetAxis("Vertical");
         position.Normalize();
-        float Y_CorrectValue = 1.414f;//due to our stupid fucking Coordinate,we need a correct value
+        float z_CorrectValue = 1.414f;//due to our stupid fucking Coordinate,we need a correct value
         position.x *= Speed*Time.deltaTime;
-        position.y *= Speed*Time.deltaTime*Y_CorrectValue;
+        position.z *= Speed*Time.deltaTime*z_CorrectValue;
         //Debug.Log(position);
         transform.position += position;
     }
