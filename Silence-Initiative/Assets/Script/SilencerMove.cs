@@ -16,7 +16,7 @@ public class SilencerMove : MonoBehaviour
     void Update()
     {
         Vector3 position = Vector3.zero;
-        Vector3 rigidbodyPosition = GetComponent<Rigidbody2D>().position;
+        Rigidbody rigidbody = GetComponent<Rigidbody>();
         position.x = Input.GetAxis("Horizontal");
         position.z = Input.GetAxis("Vertical");
         position.Normalize();
@@ -24,7 +24,8 @@ public class SilencerMove : MonoBehaviour
         position.x *= Speed*Time.deltaTime;
         position.z *= Speed*Time.deltaTime*z_CorrectValue;
         //Debug.Log(position);
-        rigidbodyPosition += position;
+        rigidbody.MovePosition(position+rigidbody.position);
+        transform.position = rigidbody.position;
         SilencerPositionChange = position;
     }
 }
