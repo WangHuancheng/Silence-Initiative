@@ -15,14 +15,14 @@ public class SilencerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 position = Vector3.zero;
-        Rigidbody rigidbody = GetComponent<Rigidbody>();
+        Vector2 position = Vector2.zero;
+        Rigidbody2D rigidbody = GetComponent<Rigidbody2D>();
         position.x = Input.GetAxis("Horizontal");
-        position.z = Input.GetAxis("Vertical");
+        position.y = Input.GetAxis("Vertical");
         position.Normalize();
-        float z_CorrectValue = 1.414f;//due to our stupid fucking Coordinate,we need a correct value
+        float y_CorrectValue = 1.414f;//due to our stupid fucking Coordinate,we need a correct value
         position.x *= Speed*Time.deltaTime;
-        position.z *= Speed*Time.deltaTime*z_CorrectValue;
+        position.y *= Speed*Time.deltaTime*y_CorrectValue;
         //Debug.Log(position);
         rigidbody.MovePosition(position+rigidbody.position);
         transform.position = rigidbody.position;
