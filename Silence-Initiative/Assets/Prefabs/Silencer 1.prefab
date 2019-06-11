@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 3136256372000109782}
   - component: {fileID: 1948015054}
   - component: {fileID: 1948015053}
-  - component: {fileID: 1948015052}
   - component: {fileID: 6376363179041909166}
   - component: {fileID: 8867879095534320854}
-  - component: {fileID: 6470699944018697103}
+  - component: {fileID: 5569062428151860156}
   m_Layer: 0
   m_Name: Silencer 1
   m_TagString: Untagged
@@ -98,22 +97,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
---- !u!70 &1948015052
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948015051}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.25}
-  m_Size: {x: 0.5, y: 0.5}
-  m_Direction: 0
 --- !u!50 &6376363179041909166
 Rigidbody2D:
   serializedVersion: 4
@@ -154,7 +137,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6470699944018697103
+--- !u!114 &5569062428151860156
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,6 +146,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1948015051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 385e036c6677e4542a5d18300620c44d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b3b6f1d4097b7b42b98f421c50e1508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

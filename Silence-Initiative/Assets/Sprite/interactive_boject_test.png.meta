@@ -105,11 +105,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 0
+        y: 1
         width: 11
         height: 25
-      alignment: 9
-      pivot: {x: 0.45454547, y: 0.59999996}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -128,8 +128,8 @@ TextureImporter:
         y: 0
         width: 11
         height: 25
-      alignment: 9
-      pivot: {x: 0.45454547, y: 0.59999996}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,8 +148,8 @@ TextureImporter:
         y: 0
         width: 11
         height: 23
-      alignment: 9
-      pivot: {x: 0.45454547, y: 0.65217394}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,8 +168,8 @@ TextureImporter:
         y: 0
         width: 11
         height: 23
-      alignment: 9
-      pivot: {x: 0.45454547, y: 0.65217394}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -188,8 +188,8 @@ TextureImporter:
         y: 0
         width: 10
         height: 21
-      alignment: 9
-      pivot: {x: 0.5, y: 0.71428573}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -208,8 +208,8 @@ TextureImporter:
         y: 0
         width: 10
         height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.9375}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,8 +228,8 @@ TextureImporter:
         y: 0
         width: 8
         height: 15
-      alignment: 9
-      pivot: {x: 0.625, y: 1}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
