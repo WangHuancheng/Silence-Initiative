@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 8547003902933235428}
   - component: {fileID: 6838629374938850264}
   - component: {fileID: 4990233527405597944}
-  m_Layer: 0
+  - component: {fileID: 1308445713}
+  - component: {fileID: 1308445707}
+  m_Layer: 9
   m_Name: interactive_boject_test_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,8 +97,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.77548295}
-  m_Size: {x: 0.22916667, y: 1.5509659}
+  m_Offset: {x: 0.017706096, y: 0.5053242}
+  m_Size: {x: 0.17232335, y: 1.0106484}
   m_Direction: 0
 --- !u!70 &6838629374938850264
 CapsuleCollider2D:
@@ -111,8 +113,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.26041666}
-  m_Size: {x: 0.22916667, y: 0.5208333}
+  m_Offset: {x: -0.033501446, y: 0.21868187}
+  m_Size: {x: 1.0910763, y: 1.0910763}
   m_Direction: 0
 --- !u!95 &4990233527405597944
 Animator:
@@ -133,3 +135,34 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &1308445713
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547003902933235427}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 67f9b63d1b2525647b90041819046ff2, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 67f9b63d1b2525647b90041819046ff2, type: 2}
+  - {fileID: 7400000, guid: 1c382218cdd7c7e448f31132dae7f7cd, type: 2}
+  - {fileID: 7400000, guid: 26357767eb067d444b9ee2d2e05d622c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1308445707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547003902933235427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28024cac4eb5e354a97fbabffee3c936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerCharacter: {fileID: 0}
