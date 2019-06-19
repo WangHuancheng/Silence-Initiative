@@ -99,9 +99,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 143f5fecf312d79488816b7fdea21062
+      spriteID: a9af0b06ce6b89d46bf6b68834f5dd16
       vertices: []
       indices: 
       edges: []
@@ -119,9 +119,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 407b3190859696944b1b8b6faded7aef
+      spriteID: 4d58fd63e576b9842b797e686c85bfa2
       vertices: []
       indices: 
       edges: []
@@ -137,6 +137,6 @@ TextureImporter:
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
-  userData: 
+  userData: 636961871397970908
   assetBundleName: 
   assetBundleVariant: 
