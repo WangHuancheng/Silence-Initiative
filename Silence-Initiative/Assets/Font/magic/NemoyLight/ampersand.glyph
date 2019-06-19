@@ -1,0 +1,20 @@
+
+StartChar: ampersand
+Encoding: 38 38 27
+Width: 847
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+685.604 375 m 1
+ 308.325 -2.2793 l 1
+ 71.5859 234.461 l 1
+ 308.325 471.2 l 1
+ 348 513 414 567 414 621 c 0
+ 414 677.239 372 736 308 736 c 0
+ 247.575 736 203.929 687.915 204 630 c 24
+ 204.091 555.898 261 519 308.325 471.2 c 9
+ 780 0 l 25
+EndSplineSet
+EndChar

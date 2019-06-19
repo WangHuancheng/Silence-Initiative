@@ -1,0 +1,20 @@
+
+StartChar: parenleft
+Encoding: 40 40 50
+Width: 349
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+252 753 m 4
+ 191.109 632.084 158.989 496.802 158.989 361.422 c 4
+ 158.989 248.888 181.579 109.842 252 -30 c 4
+  Spiro
+    252 753 {
+    159 357 o
+    252 -30 v
+    0 0 z
+  EndSpiro
+EndSplineSet
+EndChar

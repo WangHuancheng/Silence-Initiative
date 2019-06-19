@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: b57e4c358b0b1a0419476c400d1686e3
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Nemoy
+  fontNames:
+  - Nemoy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 250af4726a496724e911abd927945357, type: 3}
+  - {fileID: 12800000, guid: 0167caa8b4d291742b33180ea63baa96, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

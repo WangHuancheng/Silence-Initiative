@@ -1,0 +1,19 @@
+
+StartChar: numbersign
+Encoding: 35 35 45
+Width: 745
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+118.005 372.3 m 25
+ 615.314 372.3 l 25
+44.0244 194.91 m 25
+ 541.335 194.91 l 25
+586.545 537.28 m 25
+ 319.395 0 l 25
+342 537.28 m 25
+ 74.8496 0 l 25
+EndSplineSet
+EndChar

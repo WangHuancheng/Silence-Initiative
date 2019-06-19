@@ -1,0 +1,18 @@
+
+StartChar: underscore
+Encoding: 95 95 66
+Width: 511
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+441 57.5 m 2
+ 472.74 57.5 498.5 31.7402 498.5 0 c 0
+ 498.5 -31.7402 472.74 -57.5 441 -57.5 c 2
+ 30 -57.5 l 2
+ -1.74023 -57.5 -27.5 -31.7402 -27.5 0 c 0
+ -27.5 31.7402 -1.74023 57.5 30 57.5 c 2
+ 441 57.5 l 2
+EndSplineSet
+EndChar

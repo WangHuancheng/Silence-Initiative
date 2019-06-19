@@ -1,0 +1,18 @@
+
+StartChar: paragraph
+Encoding: 182 182 173
+Width: 577
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+477 736 m 25
+ 477 0 l 25
+355 0 m 17
+ 355 736 l 9
+ 324.58 736 405.064 736 277 736 c 0
+ 148.936 736 45 632.064 45 504 c 0
+ 45 375.936 148.936 272 277 272 c 0
+EndSplineSet
+EndChar

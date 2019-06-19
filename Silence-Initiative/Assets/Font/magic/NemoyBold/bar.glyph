@@ -1,0 +1,18 @@
+
+StartChar: bar
+Encoding: 124 124 30
+Width: 250
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+182.5 -0 m 2
+ 182.5 -31.7402 156.74 -57.5 125 -57.5 c 0
+ 93.2598 -57.5 67.5 -31.7402 67.5 0 c 2
+ 67.5 736 l 2
+ 67.5 767.74 93.2598 793.5 125 793.5 c 0
+ 156.74 793.5 182.5 767.74 182.5 736 c 2
+ 182.5 -0 l 2
+EndSplineSet
+EndChar

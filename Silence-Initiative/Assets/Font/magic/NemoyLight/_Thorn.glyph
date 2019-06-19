@@ -1,0 +1,18 @@
+
+StartChar: Thorn
+Encoding: 222 222 183
+Width: 646
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+124 -90 m 17
+ 124 807 l 1
+127 736 m 25
+ 175.75 736 242.122 736 252 736 c 0
+ 380.064 736 484 632.064 484 504 c 0
+ 484 375.936 380.064 272 252 272 c 0
+ 123.936 272 174.53 272 125 272 c 29
+EndSplineSet
+EndChar

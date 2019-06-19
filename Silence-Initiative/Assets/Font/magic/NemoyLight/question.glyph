@@ -1,0 +1,17 @@
+
+StartChar: question
+Encoding: 63 63 57
+Width: 484
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+268 525.004 m 25
+ 58.002 736 l 25
+ 433.002 736 l 25
+ 230 475 l 25
+ 230 177 l 25
+EndSplineSet
+Refer: 29 46 N 1 0 0 1 126 0 2
+EndChar

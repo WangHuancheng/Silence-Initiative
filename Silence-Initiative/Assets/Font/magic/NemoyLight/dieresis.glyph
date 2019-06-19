@@ -1,0 +1,19 @@
+
+StartChar: dieresis
+Encoding: 168 168 122
+Width: 416
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+348.294 799.606 m 25
+ 262.9 885 l 25
+262.606 799.606 m 25
+ 348 885 l 25
+150 799.606 m 25
+ 64.6064 885 l 25
+64.3125 799.606 m 25
+ 149.706 885 l 25
+EndSplineSet
+EndChar

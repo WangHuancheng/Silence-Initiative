@@ -1,0 +1,17 @@
+
+StartChar: ordfeminine
+Encoding: 170 170 124
+Width: 299
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+259.625 525 m 29
+ 145.065 742.12 l 29
+ 31 525 l 29
+209.18 620.58 m 5
+ 145.56 525 l 5
+ 81.0029 620.58 l 5
+EndSplineSet
+EndChar

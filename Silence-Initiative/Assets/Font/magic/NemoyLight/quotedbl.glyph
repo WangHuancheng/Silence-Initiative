@@ -1,0 +1,15 @@
+
+StartChar: quotedbl
+Encoding: 34 34 44
+Width: 184
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+42 810 m 25
+ 42 699 l 25
+122 810 m 25
+ 122 699 l 25
+EndSplineSet
+EndChar

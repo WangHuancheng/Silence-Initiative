@@ -1,0 +1,19 @@
+
+StartChar: asterisk
+Encoding: 42 42 52
+Width: 369
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+162 626.492 m 29
+ 162 844.33 l 29
+52.4922 736 m 29
+ 270.33 736 l 29
+84.5664 658.566 m 25
+ 238.601 812.601 l 25
+84.5664 813.434 m 25
+ 238.601 659.399 l 25
+EndSplineSet
+EndChar

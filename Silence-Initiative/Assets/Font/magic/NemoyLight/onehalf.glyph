@@ -1,0 +1,15 @@
+
+StartChar: onehalf
+Encoding: 189 189 175
+Width: 593
+VWidth: 340
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+549 576 m 25
+ 87 0 l 25
+EndSplineSet
+Refer: 168 185 S 1 0 0 1 54 -140 2
+Refer: 132 178 N 1 0 0 1 285 -555 2
+EndChar

@@ -1,0 +1,16 @@
+
+StartChar: braceleft
+Encoding: 123 123 92
+Width: 307
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+142 784.735 m 21
+ 140 480 l 7
+ 140 402 55 393 55 393 c 4
+ 55 393 143 368 143 302 c 7
+ 143 290 142 -50.625 142 -50.625 c 13
+EndSplineSet
+EndChar

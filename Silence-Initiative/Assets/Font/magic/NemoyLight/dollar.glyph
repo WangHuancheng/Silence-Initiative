@@ -1,0 +1,16 @@
+
+StartChar: dollar
+Encoding: 36 36 47
+Width: 637
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+327 -109 m 25
+ 327 -1 l 25
+327 736 m 25
+ 327 845 l 29
+EndSplineSet
+Refer: 18 83 N 1 0 0 1 0 0 2
+EndChar

@@ -1,0 +1,22 @@
+
+StartChar: AE
+Encoding: 198 198 178
+Width: 1222
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+1083 0 m 25
+ 633 0 l 25
+ 633 736 l 25
+ 928 736 l 29
+ 633 323 l 25
+ 951 323 l 25
+28 0 m 25
+ 414.664 736 l 25
+ 632 324 l 17
+ 416.336 0 l 1
+ 197.5 324 l 1
+EndSplineSet
+EndChar

@@ -1,0 +1,18 @@
+
+StartChar: onequarter
+Encoding: 188 188 174
+Width: 593
+VWidth: 340
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+549 576 m 25
+ 87 0 l 25
+492.3 90 m 25
+ 348 90 l 17
+ 493.41 269.08 l 1
+ 493.41 6 l 1
+EndSplineSet
+Refer: 168 185 S 1 0 0 1 54 -140 2
+EndChar

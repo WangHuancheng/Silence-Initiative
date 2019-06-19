@@ -1,0 +1,17 @@
+
+StartChar: D
+Encoding: 68 68 5
+Width: 679
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+108 736.241 m 21
+ 108 0 l 13
+ 166.11 0 209 0 257 0 c 4
+ 515 0 624.12 165.47 624.12 368.12 c 4
+ 624.12 570.771 521 736 257 736.241 c 4
+ 217.999 736.277 166.11 736.241 108 736.241 c 21
+EndSplineSet
+EndChar
