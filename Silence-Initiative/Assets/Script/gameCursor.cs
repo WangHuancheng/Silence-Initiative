@@ -1,0 +1,31 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public  class gameCursor : MonoBehaviour
+{
+    public Texture2D myCursor;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.SetCursor(myCursor,Vector2.zero,CursorMode.Auto);
+    }
+    void Update() 
+    {
+        //Debug.Log("screen position"+Input.mousePosition);
+        Debug.Log("world position"+ GetCursorWorldPosition(Camera.main));
+    }
+    public static Vector3 GetCursorWorldPosition(Camera currentCamera)
+    {
+        //Camera currentCamera = Camera.main;
+        Vector3 screenPoint = Input.mousePosition;
+        Vector3 worldPosition = Vector3.zero;
+        screenPoint.z = 10f;
+
+        worldPosition = currentCamera.ScreenToWorldPoint(screenPoint);
+        worldPosition.z = 0f;
+        return worldPosition;
+    }
+}

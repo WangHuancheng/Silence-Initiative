@@ -21,7 +21,7 @@ public class testObjectDestroy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("test Obeject "+testObjectCondition);
+        //Debug.Log("test Obeject "+testObjectCondition);
         //当物品在损毁状态中且动画播放完毕，进入完全损坏状态
         if(testObjectCondition==testObejectDestroying&&
             m_testObjecetAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1.0f) 
