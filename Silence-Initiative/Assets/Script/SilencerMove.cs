@@ -18,29 +18,33 @@ public class SilencerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 position = Vector2.zero;
+        Vector2 MoveInput = Vector2.zero;
         
-        position.x = Input.GetAxis("Horizontal");
-        position.y = Input.GetAxis("Vertical");//获取轴输入 范围：-1——1
-        if(position!=Vector2.zero)//如果有输入
+        MoveInput.x = Input.GetAxis("Horizontal");
+        MoveInput.y = Input.GetAxis("Vertical");//获取轴输入 范围：-1——1
+        MoveAnima(MoveInput);
+        
+        if(MoveInput!=Vector2.zero)//如果有输入
         {
-            m_Animator.SetBool("isWalking",true);
-            m_Animator.SetBool("isBackward",false);
-            m_Animator.SetFloat("X",position.x);
-            m_Animator.SetFloat("Y",position.y);
-            position.Normalize();
-            float y_CorrectValue = 1.414f;//due to our stupid fucking Coordinate,we need a correct value
-            position.x *= Speed*Time.deltaTime;
-            position.y *= Speed*Time.deltaTime*y_CorrectValue;
-            m_Rigidbody.MovePosition(position+m_Rigidbody.position);
-            transform.position = m_Rigidbody.position;
-            SilencerPositionChange = position;
+            MovePhysic(MoveInput);
+            //MoveAnima(MoveInput);
+            m_Animator.SetFloat("WalkX",MoveInput.x);
         }
-        else
-        {
-            m_Animator.SetBool("isWalking",false);
-        }
-        //Debug.Log(m_Animator.GetCurrentAnimatorClipInfo(0)[0].clip.name);
+    }
+    void MovePhysic(Vector2 position)
+    {
+        position.Normalize();
+        float y_CorrectValue = 1.414f;//due to our stupid fucking Coordinate,we need a correct value
+        position.x *= Speed*Time.deltaTime;
+        position.y *= Speed*Time.deltaTime*y_CorrectValue;
+        m_Rigidbody.MovePosition(position+m_Rigidbody.position);
+        transform.position = m_Rigidbody.position;
+        SilencerPositionChange = position;
+    }
+    void MoveAnima(Vector2 position)
+    {
         
     }
+
+    
 }

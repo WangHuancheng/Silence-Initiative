@@ -8,15 +8,16 @@ public  class gameCursor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //初始化鼠标
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.Confined;
         Cursor.SetCursor(myCursor,Vector2.zero,CursorMode.Auto);
     }
     void Update() 
     {
-        //Debug.Log("screen position"+Input.mousePosition);
-        Debug.Log("world position"+ GetCursorWorldPosition(Camera.main));
+        //Debug.Log("world position"+ GetCursorWorldPosition(Camera.main));
     }
+    //获取鼠标位置的世界坐标
     public static Vector3 GetCursorWorldPosition(Camera currentCamera)
     {
         //Camera currentCamera = Camera.main;
