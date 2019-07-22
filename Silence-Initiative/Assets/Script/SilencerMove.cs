@@ -28,7 +28,7 @@ public class SilencerMove : MonoBehaviour
         {
             MovePhysic(MoveInput);
             //MoveAnima(MoveInput);
-            m_Animator.SetFloat("WalkX",MoveInput.x);
+            m_Animator.SetFloat("WalkY",MoveInput.y);
         }
     }
     void MovePhysic(Vector2 position)

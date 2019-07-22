@@ -49,7 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 2
-  SilencerPositionChange: {x: 0, y: 0, z: 0}
+  SilencerPositionChange: {x: 0, y: 0}
 --- !u!212 &5623747420818462115
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -87,12 +87,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cd1648c155bd0fe449f7ee25e750c3e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41a3856b9cc9805459eec78e1a70034c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.47, y: 11.58}
+  m_Size: {x: 2, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
