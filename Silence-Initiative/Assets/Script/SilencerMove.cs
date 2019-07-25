@@ -22,13 +22,12 @@ public class SilencerMove : MonoBehaviour
         
         MoveInput.x = Input.GetAxis("Horizontal");
         MoveInput.y = Input.GetAxis("Vertical");//获取轴输入 范围：-1——1
-        MoveAnima(MoveInput);
+        //MoveAnima(MoveInput);
         
         if(MoveInput!=Vector2.zero)//如果有输入
         {
             MovePhysic(MoveInput);
-            //MoveAnima(MoveInput);
-            m_Animator.SetFloat("WalkY",MoveInput.y);
+            MoveAnima(MoveInput);
         }
     }
     void MovePhysic(Vector2 position)
@@ -41,9 +40,10 @@ public class SilencerMove : MonoBehaviour
         transform.position = m_Rigidbody.position;
         SilencerPositionChange = position;
     }
-    void MoveAnima(Vector2 position)
+    void MoveAnima(Vector2 MoveInput)
     {
-        
+        m_Animator.SetFloat("WalkY",MoveInput.y);
+        m_Animator.SetFloat("WalkX",MoveInput.x);
     }
 
     
