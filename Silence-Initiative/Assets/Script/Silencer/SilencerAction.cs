@@ -10,7 +10,7 @@ public class SilencerAction : MonoBehaviour
     public Vector2 SilencerVelocity;
     Rigidbody2D m_Rigidbody;
     Animator m_Animator;
-    bool isSilencerCurrentOnGround = true;
+    public bool isSilencerCurrentOnGround = true;
     void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody2D>();

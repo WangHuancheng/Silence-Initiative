@@ -22,7 +22,15 @@ public class SilencerAnima : MonoBehaviour
          if(MoveInput!=0)//如果水平轴有输入
         {
             Turn(MoveInput);
-            ActionAnima(MoveInput);
+            MoveAnima(MoveInput);
+        }
+        if(!silencerAction.isSilencerCurrentOnGround)
+        {
+            JumpAnima(true);
+        }
+        else if(silencerAction.isSilencerCurrentOnGround) 
+        {
+            JumpAnima(false);
         }
     }
     void Turn(float MoveInput)
@@ -38,8 +46,6 @@ public class SilencerAnima : MonoBehaviour
             isSilencerCurrentLeft = true;
         }
     }
-        void ActionAnima(float MoveInput)
-    {
-        m_Animator.SetFloat("WalkX",MoveInput);
-    }
+    void MoveAnima(float MoveInput) => m_Animator.SetFloat("WalkX", MoveInput);
+    void JumpAnima(bool IsJumping) => m_Animator.SetBool("IsJumping",IsJumping);
 }
