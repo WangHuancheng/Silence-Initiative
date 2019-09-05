@@ -1,8 +1,6 @@
 {
-    "name": "Silencer",
-    "references": [
-        "General"
-    ],
+    "name": "General",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
